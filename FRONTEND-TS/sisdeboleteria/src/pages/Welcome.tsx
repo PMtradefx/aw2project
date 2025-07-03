@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom"
+import HeaderPublico from "./lading/header"
+import Buscadortickets from "../components/BuscadorTockets/buscadortickets"
+import Destinos from "./lading/Destinos"
+import FooterPublico from "./lading/FooterPublico"
+import FAQModule from "./lading/FAQ"
+
 const Welcome = () => {
   return (
-    <div className="w-screen h-screen bg-gray-800 text-white text-center">
-      <div>Welcome</div>
-      <div className="flex justify-around">
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
-        <Link to="/dashboard">Customers</Link>
-      </div>
-    </div>
+    <>
+    <HeaderPublico/>
+    <Buscadortickets/>
+    <Destinos/>
+    <FAQModule/>
+    <FooterPublico/>
+    </>
   )
 }
 
