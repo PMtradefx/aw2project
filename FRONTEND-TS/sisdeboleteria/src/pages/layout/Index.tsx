@@ -10,7 +10,7 @@ const AdminLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const handleLogout = (e: React.MouseEvent) => {
     e.preventDefault();
     localStorage.removeItem("token");
-    localStorage.removeItem("user"); // si guardas info de usuario
+    localStorage.removeItem("user"); 
     navigate("/Login");
   };
 

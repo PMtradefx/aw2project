@@ -10,14 +10,18 @@ import ShowUser from "../pages/admin/user/show";
 import EditUser from "../pages/admin/user/edit";
 import DeleteUser from "../pages/admin/user/delete";
 import UsuarioList from "../pages/admin/proovedor";
+import Prueba from "../pages/Server/prueba";
 
 export const routes = [
     {
         path: '/',
         element: <Welcome />,
     },{
-        path: '/Login',
+        path: '/Loginantiguo',
         element: <Login />,
+    },{
+        path: '/login',
+        element: <Prueba />,
     },{
         path: '/Register',
         element: <Register />,
