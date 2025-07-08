@@ -1,0 +1,6 @@
+[submodule "BACKEND/sisdebolteria"]
+	path = BACKEND/sisdebolteria
+	url = https://github.com/PMtradefx/backend-sisdebolteria.git
+[submodule "FRONTEND-TS/sisdeboleteria"]
+	path = FRONTEND-TS/sisdeboleteria
+	url = https://github.com/PMtradefx/frontend-sisdebolteria.git
